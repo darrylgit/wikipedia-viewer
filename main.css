@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/dark-grungewall.png");
+  /*from Subtle Dark Backgrounds vol.3, found on pixeden.com*/
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  min-height: 100%;
+}
+
+#loadup {
+  margin-top: 20%;
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 4rem;
+  display: inline;
+  text-decoration: none;
+  text-shadow: 2px 2px #000000;
+  margin: 10px auto;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F08080 !important;
+}
+
+a:visited, a:active, a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  font-size: 3.5rem;
+  display: block;
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: #1a1a1a;
+  padding: 3px 3px 3px 10px;
+  border-radius: 10px;
+}
+
+input, select, textarea {
+  color: white;
+}
+
+.result {
+  color: white;
+  font-size: 20px;
+  background-color: #1a1a1a;
+  width: 90%;
+  margin: auto auto 10px auto;
+  padding: 10px;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+
+#results {
+  margin-bottom: 50px;
+}
+
+#streetcred {
+  color: white;
+  font-size: 24px;
+  margin: auto;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
